@@ -1,0 +1,132 @@
+MAP
+	###TESTING MAPSERVER OUTPUT###
+	# http://localhost/cgi-bin/mapserv?map=/var/www/mapserverWMS/public_html/test.map&layer=states&mode=map
+	###TESTING MAPSERVER WMS###
+	# http://localhost/cgi-bin/mapserv?map=/var/www/mapserverWMS/public_html/test.map&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
+
+	NAME "WMS Service for National Parks and National Forests of Oregon and Washington"
+	CONFIG "MS_ERRORFILE" "/var/www/mapserverWMS/public_html/ms_error.txt"
+	STATUS ON
+	SIZE 400 300
+	EXTENT -124.733 41.6249 -116.464 49.0009
+	SHAPEPATH "DATA/SHAPES"
+	IMAGECOLOR 255 255 255
+	IMAGETYPE PNG24
+	PROJECTION
+   		"init=epsg:4326"
+	END 
+
+
+	WEB
+		#TEMPLATE "msbody.html"
+      		#HEADER "msheader.html"
+     		#FOOTER "msfooter.html"
+		IMAGEPATH "/var/www/mapserverWMS/public_html/tmp/mapserv_temp/"
+		IMAGEURL "/mapserv_temp/"
+
+		METADATA
+			"wms_title"           "Washington Oregeon NP and NF WMS Server"
+			"wms_onlineresource"  "http://localhost/cgi-bin/mapserv?map=serverWMS.map&"
+			"wms_srs"             "EPSG:4326"
+		END
+	END
+
+
+	LAYER
+		NAME   "nps_usfs"
+		#DATA         "blm/WA_OR_NPS_USFS/BLM_WA_OR_NPS_USFS_4326.shp"
+		CONNECTIONTYPE POSTGIS
+		CONNECTION "host=localhost dbname=obm user=gisuser password=gisuser port=5432"
+		DATA "geom from world_np_nf_or_wa using unique id using srid=4326"
+		STATUS       DEFAULT
+		TYPE         POLYGON
+		METADATA
+			"wms_title"           "NP_NF_LAYER"
+			"wms_srs"             "EPSG:4326"
+		END
+		PROJECTION
+   			"init=epsg:4326"
+		END
+		
+		CLASSITEM "property_s"
+		CLASS
+			NAME       'national_parks'
+			EXPRESSION 'NPS'
+			STYLE
+				COLOR 0 245 0
+				OPACITY 5
+				OUTLINECOLOR 77 102 51
+			END
+		END
+		CLASS
+			NAME       'national_forests'
+			EXPRESSION 'USFS'
+			STYLE
+				COLOR 230 255 204
+				OPACITY 5
+				OUTLINECOLOR 77 102 51
+			END
+		END
+		CLASS
+			NAME       'national_parks'
+			EXPRESSION ''
+			STYLE
+				COLOR 255 255 204
+				OPACITY 5
+				OUTLINECOLOR 77 102 51
+			END
+		END
+		
+	END
+
+
+	LAYER
+		NAME   "states"
+		#DATA         "states/US_shapefiles.shp"
+		CONNECTIONTYPE POSTGIS
+		CONNECTION "host=localhost dbname=obm user=gisuser password=gisuser port=5432"
+		DATA "geom from world_states using unique id using srid=4326"
+		STATUS       DEFAULT
+		TYPE         POLYGON
+		CLASS
+			NAME       'states'
+			STYLE
+				OUTLINECOLOR    0 0 0
+			END
+		END
+		PROJECTION
+   			"init=epsg:4326"
+		END
+		METADATA
+			"wms_title"           "STATES_LAYER"
+			"wms_srs"             "EPSG:4326"
+		END
+	END
+
+	#LAYER
+	#	NAME   "world borders"
+	#	#DATA         "world_borders/TM_WORLD_BORDERS-0.3.shp"
+	#	CONNECTIONTYPE POSTGIS
+	#	CONNECTION "host=localhost dbname=obm user=gisuser password=gisuser port=5432"
+	#	DATA "geom from world_worldborders using unique id using srid=4326"
+	#	STATUS       DEFAULT
+	#	TYPE         POLYGON
+	#	CLASS
+	#		NAME       'world borders'
+	#		STYLE
+	#			
+	#			OUTLINECOLOR   205 201 165
+	#		END
+	#	END
+	#	PROJECTION
+   	#		"init=epsg:4326"
+	#	END
+	#	METADATA
+	#		"wms_title"           "WORLD_BORDER_LAYER"
+	#		"wms_srs"             "EPSG:4326"
+	#	END
+	#END
+
+
+END
+

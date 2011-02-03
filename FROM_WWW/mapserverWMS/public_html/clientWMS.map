@@ -1,0 +1,39 @@
+MAP
+	###TESTING MAPSERVER OUTPUT###
+	# http://localhost/cgi-bin/mapserv?map=/var/www/mapserverWMS/public_html/clientWMS.map&layers=distro&mode=map
+
+	NAME "WMS Client"
+	CONFIG "MS_ERRORFILE" "/var/www/mapserverWMS/public_html/ms_clientwms_error.txt"
+	STATUS ON
+	SIZE 400 300
+	EXTENT -124.733 41.6249 -116.464 49.0009
+	SHAPEPATH "DATA/SHAPES"
+	IMAGECOLOR 255 255 255
+	IMAGETYPE PNG24
+	PROJECTION
+   		"init=epsg:4326"
+	END 
+
+
+	WEB
+		IMAGEPATH "/var/www/mapserverWMS/public_html/tmp/mapserv_temp/"
+		IMAGEURL "/mapserv_temp/"
+	END
+
+
+	LAYER
+		NAME "distro"
+		TYPE RASTER
+		STATUS ON
+		CONNECTION "http://localhost/cgi-bin/mapserv?map=serverWMS.map"
+		CONNECTIONTYPE WMS
+		METADATA
+			"wms_srs"             "EPSG:4326"
+			"wms_name"            "nps_usfs" #this corresponds to the LAYER--> NAME not the wms_title
+			"wms_server_version"  "1.1.1"
+			"wms_format"          "image/png"
+		END
+	END
+
+END
+

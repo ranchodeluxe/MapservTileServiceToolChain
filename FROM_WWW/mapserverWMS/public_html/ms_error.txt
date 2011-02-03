@@ -1,0 +1,129 @@
+[Sun Jan 30 19:45:13 2011].850380 mapserv(): Web application error. No way to generate map extent.
+[Sun Jan 30 19:45:13 2011].850436 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:45:13 2011].850585 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:45:13 2011].850607 msDrawMap(): Image handling error. Unable to initialize image.
+[Sun Jan 30 19:47:08 2011].8559 mapserv(): Web application error. No way to generate map extent.
+[Sun Jan 30 19:47:08 2011].8617 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:47:08 2011].8764 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:47:08 2011].8786 msDrawMap(): Image handling error. Unable to initialize image.
+[Sun Jan 30 19:47:08 2011].759900 mapserv(): Web application error. No way to generate map extent.
+[Sun Jan 30 19:47:08 2011].759956 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:47:08 2011].760104 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:47:08 2011].760126 msDrawMap(): Image handling error. Unable to initialize image.
+[Sun Jan 30 19:47:09 2011].294156 mapserv(): Web application error. No way to generate map extent.
+[Sun Jan 30 19:47:09 2011].294214 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:47:09 2011].294365 msCalculateScale(): General error message. Invalid image extent, minx=-1.000000, miny=-1.000000, maxx=-1.000000, maxy=-1.000000.
+[Sun Jan 30 19:47:09 2011].294387 msDrawMap(): Image handling error. Unable to initialize image.
+[Sun Jan 30 19:49:11 2011].97381 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/DATA/states/US_shapefiles)
+[Sun Jan 30 19:49:11 2011].97434 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles)
+[Sun Jan 30 19:49:11 2011].97442 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:50:32 2011].388222 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:50:32 2011].388273 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:50:32 2011].388280 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:50:33 2011].707950 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:50:33 2011].708001 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:50:33 2011].708008 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:51:28 2011].948997 msShapefileOpen(): Unable to access file. (/home/gcorradini/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:51:28 2011].949047 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:51:28 2011].949055 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:51:30 2011].238180 msShapefileOpen(): Unable to access file. (/home/gcorradini/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:51:30 2011].238231 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:51:30 2011].238238 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:52:28 2011].267524 msShapefileOpen(): Unable to access file. (/home/gcorradini/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:52:28 2011].267574 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:52:28 2011].267581 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:52:28 2011].916370 msShapefileOpen(): Unable to access file. (/home/gcorradini/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:52:28 2011].916421 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:52:28 2011].916429 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 19:52:30 2011].506884 msShapefileOpen(): Unable to access file. (/home/gcorradini/DATA/SHAPES/states/US_shapefiles.shp)
+[Sun Jan 30 19:52:30 2011].506934 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/US_shapefiles.shp)
+[Sun Jan 30 19:52:30 2011].506941 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Sun Jan 30 20:00:55 2011].266602 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/DATA/SHAPES/world_borders/TM_WORLD_BORDERS-0.3shp)
+[Sun Jan 30 20:00:55 2011].266653 msShapefileOpen(): Unable to access file. (/var/www/mapserverWMS/public_html/world_borders/TM_WORLD_BORDERS-0.3shp)
+[Sun Jan 30 20:00:55 2011].266660 msDrawMap(): Image handling error. Failed to draw layer named 'world borders'.
+[Mon Jan 31 19:22:30 2011].535858 msPostGISLayerWhichShapes(): Query error. Error (ERROR:  column "id" does not exist
+LINE 1: ...ollection(force_2d("geom")),'NDR'),'hex') as geom,"id" from ...
+                                                             ^
+) executing query: select encode(AsBinary(force_collection(force_2d("geom")),'NDR'),'hex') as geom,"id" from (select t.property_s, t.geom from world_np_nf_or_wa t) as subquery where geom && GeomFromText('POLYGON((-126.135121553885 41.6249,-126.135121553885 49.0009,-115.061878446115 49.0009,-115.061878446115 41.6249,-126.135121553885 41.6249))',4326)
+[Mon Jan 31 19:22:30 2011].536398 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Mon Jan 31 19:25:18 2011].636471 msPostGISLayerWhichShapes(): Query error. Error (ERROR:  column "objectid" does not exist
+LINE 1: ...ollection(force_2d("geom")),'NDR'),'hex') as geom,"objectid"...
+                                                             ^
+) executing query: select encode(AsBinary(force_collection(force_2d("geom")),'NDR'),'hex') as geom,"objectid" from (select t.property_s, t.geom from world_np_nf_or_wa t) as subquery where geom && GeomFromText('POLYGON((-126.135121553885 41.6249,-126.135121553885 49.0009,-115.061878446115 49.0009,-115.061878446115 41.6249,-126.135121553885 41.6249))',4326)
+[Mon Jan 31 19:25:18 2011].637006 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Mon Jan 31 19:26:07 2011].409630 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Jan 31 19:26:07 2011].410125 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Mon Jan 31 19:27:24 2011].785936 msPostGISLayerWhichShapes(): Query error. Error (ERROR:  column "id" does not exist
+LINE 1: ...ollection(force_2d("geom")),'NDR'),'hex') as geom,"id" from ...
+                                                             ^
+) executing query: select encode(AsBinary(force_collection(force_2d("geom")),'NDR'),'hex') as geom,"id" from (select t.property_s, t.geom from world_np_nf_or_wa t) as subquery where geom && GeomFromText('POLYGON((-126.135121553885 41.6249,-126.135121553885 49.0009,-115.061878446115 49.0009,-115.061878446115 41.6249,-126.135121553885 41.6249))',4326)
+[Mon Jan 31 19:27:24 2011].786466 msDrawMap(): Image handling error. Failed to draw layer named 'parks_forests'.
+[Mon Jan 31 21:44:11 2011].256779 msPostGISLayerWhichShapes(): Query error. Error (ERROR:  column "Property_s" does not exist
+LINE 1: select "Property_s",encode(AsBinary(force_collection(force_2...
+               ^
+) executing query: select "Property_s",encode(AsBinary(force_collection(force_2d("geom")),'NDR'),'hex') as geom,"id" from world_np_nf_or_wa where geom && GeomFromText('POLYGON((-125.209653942428 41.6249,-125.209653942428 49.0009,-115.987346057572 49.0009,-115.987346057572 41.6249,-125.209653942428 41.6249))',4326)
+[Mon Jan 31 21:44:11 2011].257268 msDrawMap(): Image handling error. Failed to draw layer named 'nps_usfs'.
+[Mon Jan 31 22:53:49 2011].804640 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis_jpl': <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://wms.jpl.nasa.gov/exception_1_1_1.dtd ">
+<ServiceExceptionReport version="1.1.1">
+<ServiceException>
+This server no longer provides full WMS services!
+</ServiceException>
+</ServiceExceptionReport>
+.
+[Mon Jan 31 22:53:57 2011].39719 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis_jpl': <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://wms.jpl.nasa.gov/exception_1_1_1.dtd ">
+<ServiceExceptionReport version="1.1.1">
+<ServiceException>
+This server no longer provides full WMS services!
+</ServiceException>
+</ServiceExceptionReport>
+.
+[Mon Jan 31 23:07:55 2011].37314 loadStyle(): Unknown identifier. Parsing error near (ENDPNG24):(line 56)
+[Mon Jan 31 23:08:16 2011].37889 loadStyle(): Unknown identifier. Parsing error near (ENDPNG24):(line 56)
+[Mon Jan 31 23:08:20 2011].726621 loadStyle(): Unknown identifier. Parsing error near (ENDPNG24):(line 56)
+[Mon Jan 31 23:08:51 2011].966381 loadStyle(): Unknown identifier. Parsing error near (ENDPNG24):(line 56)
+[Mon Jan 31 23:08:52 2011].686288 loadStyle(): Unknown identifier. Parsing error near (ENDPNG24):(line 56)
+[Mon Jan 31 23:08:53 2011].366737 loadStyle(): Unknown identifier. Parsing error near (ENDPNG24):(line 56)
+[Mon Jan 31 23:09:32 2011].502840 msPostGISLayerOpen(): Query error. Database connection failed (invalid connection option "pasPNG24sword"
+) with connect string 'host=localhost dbname=obm user=gisuser pasPNG24sword=gisuser port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Jan 31 23:09:32 2011].502942 msDrawMap(): Image handling error. Failed to draw layer named 'nps_usfs'.
+[Mon Jan 31 23:10:34 2011].572849 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis_jpl': <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://wms.jpl.nasa.gov/exception_1_1_1.dtd ">
+<ServiceExceptionReport version="1.1.1">
+<ServiceException>
+This server no longer provides full WMS services!
+</ServiceException>
+</ServiceExceptionReport>
+.
+[Mon Jan 31 23:21:23 2011].266398 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis': <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://wms.jpl.nasa.gov/exception_1_1_1.dtd ">
+<ServiceExceptionReport version="1.1.1">
+<ServiceException>
+This server no longer provides full WMS services!
+</ServiceException>
+</ServiceExceptionReport>
+.
+[Mon Jan 31 23:21:36 2011].155104 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis': <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://wms.jpl.nasa.gov/exception_1_1_1.dtd ">
+<ServiceExceptionReport version="1.1.1">
+<ServiceException>
+This server no longer provides full WMS services!
+</ServiceException>
+</ServiceExceptionReport>
+.
+[Mon Jan 31 23:37:32 2011].933362 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis': <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://sherlock.nrlssc.navy.mil/ogcwms/exception_1_1_1.dtd">
+<ServiceExceptionReport version="1.1.1"><ServiceException code="LayerNotDefined">invalid LAYER 'CADRG'</ServiceException></ServiceExceptionReport>
+.
+[Mon Jan 31 23:37:49 2011].933496 msDrawWMSLayerLow(): WMS server error. WMS GetMap request got XML exception for layer 'modis': <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ServiceExceptionReport SYSTEM "http://sherlock.nrlssc.navy.mil/ogcwms/exception_1_1_1.dtd">
+<ServiceExceptionReport version="1.1.1"><ServiceException code="LayerNotDefined">invalid LAYER 'CADRG'</ServiceException></ServiceExceptionReport>
+.
+[Tue Feb  1 19:53:57 2011].30198 msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+[Tue Feb  1 19:55:00 2011].168949 msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+[Tue Feb  1 19:55:25 2011].977611 msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+[Tue Feb  1 19:55:26 2011].986442 msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+[Tue Feb  1 19:55:28 2011].266359 msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+[Tue Feb  1 23:14:07 2011].948778 msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
